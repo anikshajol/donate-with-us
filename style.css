@@ -40,3 +40,48 @@ h1 {
   padding: 15px 40px;
   border-radius: 8%;
 }
+.donate-today {
+  margin-top: 10%;
+  width: 100%;
+  text-align: center;
+}
+.donation-amount {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.amount {
+  width: 20%;
+  padding-left: 5%;
+}
+
+.amount button {
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 10px gray;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  border-radius: 15%;
+  border-style: none;
+}
+
+#set-amount {
+  width: 50%;
+  font-size: 20px;
+  border-style: none;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+}
+
+.other-amount {
+  padding-bottom: 5%;
+}
+
+#focus {
+  color: rgb(255, 99, 71);
+  border: 3px solid salmon;
+}
