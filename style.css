@@ -171,11 +171,24 @@ section {
 }
 #email {
   width: 50%;
-  text-align: center;
   padding: 15px 40px;
   border-radius: 10px;
+  border-radius: 10px 1px 1px 10px;
+  border-style: none;
+  background-color: rgba(128, 128, 128, 0.288);
+  font-size: 18px;
 }
 
+.email-subscription {
+  text-decoration: none;
+  background-color: rgb(255, 99, 71);
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  border-radius: 1px 10px 10px 1px;
+  border-style: none;
+  margin-left: -2%;
+  font-size: 18px;
+}
 /* Get update style emd */
 
 /* footer style */
