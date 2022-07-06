@@ -4,14 +4,15 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 section {
-  margin-bottom: 8%;
+  margin-bottom: 4%;
 }
 .title {
   font-size: 60px;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 1%;
 }
 
+/* Heading style start*/
 .heading-section {
   width: 100%;
   height: 80vh;
@@ -32,8 +33,7 @@ section {
 .title-text {
   padding-top: 2%;
   padding-bottom: 5%;
-  padding-left: 5%;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -43,8 +43,12 @@ section {
   color: rgb(255, 255, 255);
   font-weight: bold;
   padding: 15px 40px;
-  border-radius: 8%;
+  border-radius: 10px;
+  border-style: none;
 }
+/* Heading style end */
+
+/* Donate amount style start */
 .donate-today {
   width: 100%;
   text-align: center;
@@ -68,7 +72,7 @@ section {
   text-align: center;
   font-size: 25px;
   font-weight: 900;
-  border-radius: 15%;
+  border-radius: 10px;
   border-style: none;
 }
 
@@ -89,7 +93,9 @@ section {
   color: rgb(255, 99, 71);
   border: 3px solid salmon;
 }
+/* Donate amount style end */
 
+/* Donate plant start  */
 .donate-plan-details {
   display: flex;
 }
@@ -123,3 +129,91 @@ section {
 #education-for-child {
   background-color: rgba(255, 166, 0, 0.233);
 }
+/* Donate plan style end */
+
+/* About us */
+.about-us {
+  display: flex;
+  margin-top: 15%;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.about-us img {
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.about-us-title {
+  margin-top: 10%;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.about-us-text {
+  padding: 25px 22px;
+  font-size: 20px;
+  text-align: justify;
+}
+/* About us style end */
+
+/* Get update style start */
+.contact {
+  width: 31%;
+  margin: 0 auto;
+  background-color: rgba(255, 166, 0, 0.192);
+  padding: 6% 12%;
+}
+#email {
+  width: 50%;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+/* Get update style emd */
+
+/* footer style */
+.footer-section {
+  height: 30vh;
+  background-color: black;
+}
+
+.footer-text {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.footer-title {
+  padding-top: 5%;
+  width: 90%;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.footer-title a {
+  text-decoration: none;
+  padding: 0px;
+  padding-left: 2%;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#facebook {
+  color: blue;
+}
+
+#instagram {
+  color: rgba(255, 0, 0, 0.76);
+}
+
+/* End footer */
